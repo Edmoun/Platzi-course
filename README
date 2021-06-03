@@ -235,7 +235,33 @@ el modulo puedes usar %; y que la operacion logiga and se escribe en JavaScript 
 Bueno, en este video pude aprender hacer mi propio juego, en el cual los conceptos principales
 eran las clases y los arrays, las clases se puede decir que son la definicion de los objetos,
 tambien aprendi que dentro de las clases no es necesario colocar la palabra function para
-saber que 
+saber cuales son nuestros objetos y por ultimo aprendi que l
+a ventana Element que esta en nuestra consola y es el que nos muestra como esta nuestro html.
+
+## 23 Diagrama de flujo del cajero automatico
+
+Bueno, en este video pude entender que que los algoritmos son muy importantes ya que, nos ayudan
+a resolver problemas siguiendo una serie de pasos para asi llegar a una solucion.
+
+## 24 Implementacion del cajero automatico
+
+Bueno, en este video pude aprender como crear un cajero automatico.
+
+## 25 Modelo cliente servidor
+
+Bueno, en este video aprendi Las tecnologías utilizadas en aplicaciones web son:
+Bases de datos, MySQL es una base de datos relacionales y MongoDB es una base de datos no relacional
+Backend, existen muchos lenguajes que puedes usar cómo Python, Ruby, JavaScript
+Servidores, existen tecnologías como NGINX, Apache, Node
+Frontend, son las tecnologías que corren en el navegador, HTML, CSS y JavaScript
+A un grupo de tecnologías se les conoce como Stack
+Si tuvieras un código en el Frontend que se conectara a una base de datos, esta seria visible para todos.
+
+## 26 Primer servidor web con express
+
+Bueno, en este video pude aprender de que NodeJS es una herramienta que nos permite utiliza
+a JS sin un navegador; tambien pude observar que para poder instalar NodeJS en nuestro
+computador debemos de tener permiso de administrador. Tambien aprendi a correr a NodeJS.
 
 
 

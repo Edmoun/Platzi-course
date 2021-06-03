@@ -1,0 +1,242 @@
+## 1 video Mi primera linea de codigo
+
+    var nombre = "Edmoun";
+    nombre = prompt("Cual es tu nombre";
+    alert("Tu nombre es" + nombre); 
+
+## 2 video ¿Que es HTML, CSS, JS?
+
+    Bueno, segun lo que aprendi del video puedo decir que HTML y CSS no son lenguajes de 
+    prgramacion, y tambien pude aprender que HTML es la estructura y CSS es el diseño de 
+    nuestra pagina web, y JS es aquel que se encarga de interactuar con el documento.
+
+## 3 Diferencia entre JS Y Java
+
+    Bueno, en este video pude aprender que JS no es lo mismo que Java ya que Java es un lenguaje que se utiliza
+    para servidores, aplicaciones de escritorio y aplicaciones Android.
+
+    Mientras que JS es un lenguaje de la web, servidores, robots, etc.
+
+## 4 Primeros pasos en el navegador con alert
+
+    alert("Hola mama, estoy programando");
+    undefined
+    var x = 1
+    undefined
+    var x = 1;
+    undefined
+    var y = 2;
+    undefined
+    var z = x + y;
+    undefined
+    z;
+    3   
+
+## 5 HTML, CSS, Java de verdad
+
+    Los archivos HTML deberian estar adentro de una, y todos los archivos HTML 
+    tienen que estar estructurados como <title> Titulo de la pagina </title>.
+
+    La etiqueta que te permite escribir CSS dentro de HTML es <style>, se coloca 
+    dentro de head. La etiqueta para escribir JS dentro de HTML es <script>, se 
+    coloca antes de terminar el body. 
+    <HTML>
+    <head>
+        <title>Mi primer archivos HTML</title>
+        <style>
+        body
+        {
+            background-color: #AAAAFF;
+            color: white;
+            font-family: Helvitica;
+        }
+        strong
+        {
+            background-color: #FFAAAA;
+        }
+        </style>
+    </head>
+    <body>
+        <p>
+            Hola <strong>mama ya casi</strong> aprendo
+        </p>
+        <p>Este es otro parrafo</p>
+        <script>
+            alert("Mensaje especial con alerta")
+        </script>
+    </body>
+    </HTML>
+
+##8 Peso en otro planeta
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Tu peso en otro planeta</title>
+</head>
+<body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en Marte o Jupiter</p>
+    <script>
+        var usuario = prompt("Cual es tu peso?");
+        var g_tierra = 9.8;
+        var g_marte = 3.7;
+        var g_jupiter = 24.8;
+        var peso = 77;
+        var peso_final;
+        peso_final = peso * g_marte / g_tierra;
+        peso_final = parseInt(peso_final);
+        document.write(peso_final);
+    </script>
+</body>
+</html>
+
+## 9 Obteiendo datos del usuario
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Tu peso en otro planeta</title>
+</head>
+<body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en Marte o Jupiter</p>
+    <script>
+        var usuario = prompt("Cual es tu peso?");
+        var peso = parseInt(usuario);
+        var g_tierra = 9.8;
+        var g_marte = 3.7;
+        var g_jupiter = 24.8;
+        var peso_final;
+        peso_final = peso * g_marte / g_tierra;
+        peso_final = parseInt(peso_final);
+        document.write("Tu peso en martes es <strong>" + peso_final + " kilos</strong>");
+    </script>
+</body>
+</html>
+
+## 10 Flujos y condiciones
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tu peso en otro planeta</title>
+</head>
+<body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en Marte o Jupiter</p>
+    <script>
+        var usuario = prompt("Cual es tu peso?");
+        var planeta = parseInt(prompt("Elige tu planeta/n1 es marte y 2 es jupiter"));
+        var peso = parseInt(usuario);
+        var g_tierra = 9.8;
+        var g_marte = 3.7;
+        var g_jupiter = 24.8;
+        var peso_final;
+        var nombre;
+        if(planeta == 1)
+        {
+            peso_final = peso * g_marte / g_tierra;
+            nombre = "Martes";
+        }
+        else if(planeta == 2)
+        {
+            peso_final = peso * g_jupiter / g_tierra;
+            nombre = "Jupiter";
+        }
+        else
+        {
+            peso_final = 1000000;
+            nombre = "Kripton";
+        }
+        peso_final = peso * g_jupiter / g_tierra;
+        peso_final = parseInt(peso_final);
+        document.write("Tu peso en " + nombre + " es <strong>" + peso_final + " kilos</strong>");
+    </script>
+</body>
+</html>
+
+## 11 El DOM 
+
+Bueno, en este video pude aprender que en el DOM existen lo que son los objetos
+lo que son aquellos que se encargan de guardar por dentro, funciones, atributos, 
+variables, etc.
+
+## 12 Como funciona Window y Document
+
+Bueno, en este pude aprender que document es un objeto y decia que los objetos son 
+una caja en blanco donde se guardadn funciones, variables, etc.
+
+## 13 Dibujar en Canvas
+
+Bueno en este video pude aprender que el Canvas es una etiqueta de HTML pero que solamente 
+se puede utilizar en JS y es usado para dibujar. Tambien puedo decir para hacer un trazo
+debemos de tomar en cuenta bastantes cosas.
+
+## 14 Funciones en JS
+
+Bueno, las funciones en js son una linea de codigo que van ayudar a evitar repetir
+un mismo bloque de codigo mas de una vez oara que asi se nos haga mas facil de hacer 
+codigos que se parescan.
+
+## 15 Ciclos while y for en JS
+
+Los Ciclos son piezas de codigo que se repiten hasta que se cumpla una condicion.
+Ademas de eso pude aprender que existen tres tipos de ciclos, que son los ciclos 
+while: que son aquellos que se ejecutaran mientras la condicion sea verdadera; 
+For: es un tipo de ciclo que primero se encarga de observar que tipo de variable 
+es la que va a iterar; y por ultimo esta do while: Este es un tipo de ciclo que 
+se va a ejecutar mientras la condicion sea falsa.
+
+## 16 Eventos y formularios en HTML y JS
+
+los Eventos son aquelas acciones que realizamos ya sea, tocando un boton, una tecla
+del computador y tambien puedo decir que los eventos son funciones que se utilizan 
+cuando algo se ejecuta. Y otra cosa que debemos de recordar es que para enviar infor
+macion a un servidor podemos utilizar formularios.
+
+## 17 Detectar eventos del teclado con JavaScript
+
+Bueno, en este video pude aprender que podemos hacer  que los dibujos que nosotros
+creamos podemos hacerlo reaccionar a nuestro teclado, pero para eso debemos saber 
+detectar los eventos del teclado. Tambien pude aprender que todo programador divide
+los problemas grandes en pequeños problemas. Tambien pude aprender que los swich 
+mayormente se usan para cuando tenemos que utilizar el if muchas veces.
+
+## 18 Dibujar en canvas con las flechas del teclado
+
+Bueno, en este video pude aprender que para dibujar con las flechas del teclado debemos
+de hacer un swich o un if especificando el codigo de la tecla que vallamos a utilizar; y 
+tambien pude aprender que cuando escribimos algo en mayuscula es porque eso es muy poco
+probable que se cambie.
+
+## 19 Funciones matematicas y numeros aleatorios en JavaScript
+
+Bueno, en este video pude aprender hacer funciones matematicas que me den un numero, 
+entre 1y 20, ademas de eso pude darme cuenta el codigo return sirve para devolver o 
+retornar el valor de una operacion matematica.
+
+## 20 Uso y carga de imagenes en Canvas
+
+Bueno, en este video pude aprender que no todas las imagenes tienen el mismo tamaño
+ademas de eso pude darme cuenta que la etiqueta canvas siempre dibuja encima del ultimo 
+objeto. Tambien pude aprender que para insertar una imagen en canvas debemos de utilizar 
+el metodo drawlmage.
+
+## 21 Division, modulo y residuo en JavaScript
+
+Bueno, este video pude aprender que cuando me presentan un trabajo la mayor parte de las 
+veces me ponen una pequeña prueba de progracion llamada o mejor conocida como fizzbuzz, 
+con el objetivo de conocer nuestro conocimiento. Tambien pude aprender que para calcular
+el modulo puedes usar %; y que la operacion logiga and se escribe en JavaScript con &&. 
+
+## 22 Clases y Arrays en JavaScript
+
+Bueno, en este video pude aprender hacer mi propio juego, en el cual los conceptos principales
+eran las clases y los arrays, las clases se puede decir que son la definicion de los objetos,
+tambien aprendi que dentro de las clases no es necesario colocar la palabra function para
+saber que 
+
+
+
+    
